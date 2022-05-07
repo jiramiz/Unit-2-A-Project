@@ -1,0 +1,471 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+/* ads section */
+
+.ads{
+    width: 100%;
+    height: 40px;
+    margin-top: 0px;
+    background-color: rgb(238,238,238);
+    border-bottom: 1px solid gray;
+}
+.adContent{
+    font-style: 12px;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+a{
+    color: black;
+    font-size: 10px;
+}
+
+/* nav section */
+
+.nav{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    background-color: white;
+}
+
+.brand{
+    font-family: helvetica, arial, sans-serif;
+    margin: 10px 25px;
+    height: 40px;
+    width: 150px;
+}
+.search{
+    width: 490px;
+    height: 40px;
+    margin: 10px 30px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+input[type = text] {
+    padding: 1px;
+    font-size: 20px;
+    border: none;
+    width: 430px;
+    height: 35px;
+}
+button{
+    width: 50px;
+    height: 35px;
+    border: none;
+    background-color: white;
+}
+.account{
+    float: left;
+    margin: auto;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+#dropdown{
+    display: none;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(238,238,238);
+    position: absolute;
+}
+
+
+
+
+
+.dropdownone{
+    display: flex;
+}
+.dropdownone > button{
+    width: 100px;
+    background-color: black;
+    color: white;
+    margin: 20px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.dropdownone > a{
+    font-size: 16px;
+    font-family:"Gotham 5r", Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+.dropdowntwo{
+    width: 270px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-family:"Gotham 5r", Helvetica, Arial, sans-serif ;
+    display: flex;
+}
+.dropdowntwo > .fas,span,a{
+    font-size: 16px;
+    margin: 5px 5px;
+}
+.dropdowntwo > h3{
+    margin-top: 15px;
+    font-weight: normal;
+}
+.dropdowntwo > .fa-wallet{
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+
+.color{
+    background-color: rgb(220,238,240);
+}
+.cart{
+    float: left;
+    margin-top: 5px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+}
+.checkout{
+    float: left;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+
+
+p{
+    margin: 0px 0px ;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Gotham 5r", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+img{
+    margin-left: 10px;
+}
+
+/* menu & help section */
+.secnav{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid gray;
+    display: flex;
+}
+
+
+.shop{
+    border-right:1px solid gray;
+    width: 250px;
+    height: 100%;
+    background-color: white;
+}
+.fa{
+    margin-left: 33px;
+    margin-top: 10px;
+}
+.fa > span{
+    font-weight: bold;
+    font-family: "Gotham 5r", Helvetica, Arial, sans-serif;
+}
+.mainmenu{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 200px;
+    display: none;
+    background-color: white;
+    position: relative;
+}
+
+
+
+.mainmenu li a{
+   font-family:"Gotham 5r", Helvetica, Arial, sans-serif;
+   display: block;
+   text-decoration: none;
+   font-size: 16px;
+   padding: 8px 0px;
+   font-weight:600; 
+   position: relative;
+   background-color: white
+}
+
+.selectstore{
+    height: 100%;
+    width: 230px;
+    font-size: 18px;
+}
+.selectstore > .fas{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.selectstore > span{
+    font-family: "Gotham 5r", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.coupon{
+    float: right;
+    margin: auto;
+    margin-right: 50px;
+}
+.coupon > span{
+    font-family: "Gotham 5r", Helvetica, Arial, sans-serif;
+}
+.coupon > .fas{
+    margin-right: 10px;
+}
+.help{
+    float: right;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 0px;
+}
+.help > span{
+    font-family: "Gotham 5r", Helvetica, Arial, sans-serif;
+}
+.help > .far{
+    margin-right: 10px;
+}
+
+/* content section */
+.img1> img{
+    margin: auto;
+    margin-left: 25px;
+    margin-top: 50px;
+    width:97%;
+}
+
+
+.img2 > img{
+    margin-left: 25px;
+    margin-top: 40px;
+    width:97%;
+}
+.img3 > img{
+    margin-left: 25px;
+    width:97%;
+    margin-top: 10px;
+}
+.img4 > img{
+    margin-left: 14px;
+    width: 98%;
+}
+.toyheading > h1{
+    font-family: "Gotham 5r", GothamMedium, Helvetica, Arial, sans-serif;
+    font-size: 46px;
+    color: rgb(17,78,85);
+    text-align: center;
+}
+.img5 > img{
+    width: 98%;
+    margin-left: 15px;
+}
+.toycard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 8px;
+    width: 100%;
+    height: 600px;
+
+}
+
+
+
+
+
+.toycard > div > img{
+    width: 250px;
+}
+.toycard > .img{
+    justify-content: space-between;
+    margin-left: 45px;
+    width: 250px;
+    margin-top: 40px;
+}
+.toycard > .price { 
+    background-color: rgb(60,115,55);
+    width: 250px;
+    height: 100px;
+    margin-left: 55px;
+}
+.price > h2{
+    font-family: "Gotham 7r", GothamBold, Helvetica, Arial;
+    color: white;
+    margin: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+.price > h1{
+    font-family: "Gotham 7r", GothamBold, Helvetica, Arial;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+.toycard > .type{
+    margin-left: 55px;
+    text-align: center;
+    font-family: "Gotham 7r", GothamBold, Helvetica, Arial;
+    width: 250px;
+} 
+
+
+
+
+
+
+
+
+.img6 > img{
+    width: 98%;
+    margin-left: 15px;
+}
+.img7 > img{
+    width: 98%;
+    margin-left: 15px;
+    margin-top: 80px;
+}
+.img8 > img{
+    width: 98%;
+    margin-left: 15px;
+    margin-top: 80px;
+}
+.dressheader{
+    background-color: rgb(218,33,40);
+    width: 1000px;
+    margin: auto;
+}
+.dressheader > h1{
+    font-family: "Gotham 5r", GothamMedium, Helvetica, Arial, sans-serif;
+    font-size: 46px;
+    color: white;
+    text-align: center;
+}
+.shopnow > p a{
+    font-family:"Gotham 7r", GothamBold, Helvetica, Arial;
+    font-size: 22px;
+}
+.dresscard > .price { 
+    background-color: rgb(218,33,40);
+    width: 250px;
+    height: 100px;
+    margin-left: 55px;
+}
+.giftheader{
+    width: 700px;
+}
+.sporty{
+    width: 780px;
+}
+
+
+
+.footerupper > p:nth-child(1){
+    text-align: center;
+    font-family:"Gotham 7r", GothamBold, Helvetica, Arial;
+    font-weight: lighter;
+    font-size: 13px;
+    margin: 50px 0px 20px 50px;
+}
+.footerupper > p:nth-child(2){
+    text-align: center;
+    font-family:"Gotham 7r", GothamBold, Helvetica, Arial;
+    font-weight: lighter;
+    font-size: 13px;
+    margin: 20px 0px 20px 50px;
+}
+.footerupper > p:nth-child(3){
+    text-align: center;
+    font-family:"Gotham 7r", GothamBold, Helvetica, Arial;
+    font-weight: lighter;
+    font-size: 13px;
+    margin: 20px 50px 200px 50px;
+}
+.box{
+    display: flex;
+    height: 170px;
+    margin-bottom: 150px;
+}
+.box > div:nth-child(1){
+    width: 30%;
+    height: 100%;
+    font-family:"Gotham 7r", GothamBold, Helvetica, Arial;
+    font-size: 20px;
+    color: rgb(15,127,18);
+    background-color: rgb(230,240,203);
+    padding:2px;
+    padding-bottom: 0px;
+    margin-left: 20px;
+    text-align: center;
+}
+.box > div:nth-child(1) > p{
+    color: black;
+    font-size: 18px;
+    text-align:left;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+.box > div:nth-child(2){
+    width: 67%;
+}
+.box > div:nth-child(2) > img{
+    height: 105%;
+    width: 100%;
+}
+
+
+
+.twoimg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 8px;
+    width: 97%;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    margin-left:20px;
+}
+.twoimg > div > img{
+    width: 100%;
+    height:100%;
+}
+.oneimg{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 8px;
+    width: 97%;
+    height: 100px;
+    margin-top: 150px;
+    margin-bottom: 300px;
+    margin-left: 17px;
+}
+.oneimg > div > img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.lastimg4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 8px;
+    width: 95%;
+    height: 300px;
+    margin-bottom: 300px;
+    margin-left: 17px;
+}

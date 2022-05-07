@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  header > div > div {
+    width: 100px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  header > div > div:hover {
+    cursor: pointer;
+  }
+  
+  header > div {
+    margin-bottom: 5px;
+    padding: 5px 0px;
+    border-bottom: 1px gray solid;
+  }
+  
+  #c {
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 3px;
+  }
+  
+  #h:hover {
+    cursor: pointer;
+  }
+  #h {
+    margin-left: 10px;
+  }
+  
+  main {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  main > div {
+    border: black 1px solid;
+    border-radius:10px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  #t {
+    
+    width: 150px;
+    margin-left: 30%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #ad {
+    
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 30px;
+    height: 200px;
+  }
+  
+  #out {
+    padding: 10px 70px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 20px;
+  }
+  
+  #tout {
+   
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    
+  }
+  body {
+    padding-bottom: 50px;
+  }
+  #ad > div:nth-child(1) {
+    height: 100px;
+    background-color: #ffe6f1;
+    color: #c9197e;
+    text-align: center;
+    border-radius: 10px;
+    padding-top:10px;
+  }
+  
+  #ad > div:nth-child(1) > div > p {
+    margin-left: 30%;
+    height: 20px;
+    margin-top: 10px;
+  }
+  
+  
+  .black {
+    color: black;
+  }
+  
+  #ad > div:nth-child(2) {
+    margin-top: 20px;
+    height: 70px;
+    border-radius: 10px;
+  }
+  
+  #ad > div:nth-child(2) > div {
+    margin: 2% 2%;
+    background-color: #eef7e6;
+    color: #365e22;
+    padding: 10px;
+  }
+  
+  #content {
+    display: flex;
+    margin: auto;
+  }
+  h5{
+    border-bottom: 2px black solid;
+  }
+  
+  @media screen and (max-width: 375px) {
+    #content {
+      flex-direction: column;
+    }
+    main{
+      width:100%;
+    }
+  
+    #ad{
+      margin:5% 10% ;
+      
+    }
+  }
+  

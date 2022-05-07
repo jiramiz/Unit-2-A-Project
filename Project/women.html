@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/kohl's fav icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="women.css" /> 
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="fot.css">
+    <script src="https://kit.fontawesome.com/683b4b40e3.js" crossorigin="anonymous"></script>
+    <title>Kohl's | Shop Clothing ,Shoes,Home,Kitchen,Bedding,Toys & More</title>
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+
+    <!-- navbar -->
+    <div class="nav">
+        <div class="brand"><a style="text-decoration:none" href="home.html"><h1 style="margin-top:-25px">KHOL'S</h1></a></div>
+        <div class="search">
+            <form id="form">
+                <button><i class="fas fa-search fa-2x"></i></button><input type="text" placeholder="What are you looking for today?" id="searchbox">
+              </form>
+        </div>
+
+        <div class="account"><a href="./sign_up.html"><span class="material-symbols-outlined">
+            account_circle_full
+            </span></i></a> <p>Account</p>
+            <div id="dropdown">
+
+                <div class="dropdownone">
+                    <button onclick="signIn()">SIGN IN</button>
+                    <a href="./login.html">Login Account</a>
+                </div>
+            <div class="dropdowntwo color"><i class="fas fa-info-circle"></i><span>Find your offers & Kohl's cash in your <a href="">wallet</a></span></div>
+            <div class="dropdowntwo"><i class="fas fa-wallet"></i><h3>Wallet</h3> </div>
+            <div class="dropdowntwo"><i class="fas fa-wallet"></i><img src="" alt=""> <h3>Reward</h3> </div>
+            <div class="dropdowntwo"><i class="fas fa-wallet"></i><img src="" alt=""> <h3>MY Kohl's Card</h3></div>
+            </div>
+        </div>
+        <div class="cart"><a href="cart.html"><span class="material-symbols-outlined">
+            shopping_cart
+            </span></a> <p>$0.00</p></div>
+        <div class="checkout"><a href="payment.html"><span class="material-symbols-outlined">
+            arrow_circle_right
+            </span></a><p>Check Out</p></div>
+
+    </div>
+
+
+
+
+   
+
+<!-- menu and help section -->
+  <div class="secnav">
+      <div class="shop">
+          <i class="fa fa-bars" onclick="showSideBar()"><span> Shop By Department</span></i>
+          <ul class="mainmenu" type="none">
+              <li><a href="#">Shop My Store</a></li>
+              <li><a href="#">Holiday Deals</a></li>
+              <li><a href="#">Holiday Gift Shop</a></li>
+              <li><a href="#">From the home</a></li>
+              <li><a href="womenProduct.html">Women</a></li>
+              <li><a href="womenProduct.html">Women's Plus Size</a></li>
+              <li><a href="#">Juniors</a></li>
+              <li><a href="products.html">Men</a></li>
+              <li><a href="products.html">Men's Big & Tall</a></li>
+              <li><a href="#">Shoe</a></li>
+              <li><a href="#">Toys</a></li>
+              <li><a href="kid.html">Kids</a></li>
+              <li><a href="#">Baby</a></li>
+              <li><a href="#">Bed & Bath</a></li>
+              <li><a href="#">Electronics</a></li>
+              <li><a href="#">Jewelry & Accessories</a></li>
+              <li><a href="#">Beauty | SHEFORA</a></li>
+              <li><a href="#">Active & Fitness</a></li>
+              <li><a href="#">Health & Personal care</a></li>
+              <li><a href="#">Sports Fan</a></li>
+              <li><a href="#">Diversity, Inclusion & Beloning</a></li>
+              <li><a href="#">Clearance</a></li>
+          </ul>
+      </div>
+
+
+
+      <div class="selectstore">
+          <i class="fas fa-star"></i><span class="fas">My Store : Select Store</span>
+      </div>
+      <div class="coupon"><i class="fas fa-dollar-sign"></i><span style="font-size: 17px; font-weight:bold;">Kohl’s Coupons</span></div>
+      <div class="help"><i class="far fa-question-circle"></i><span style="font-size: 17px;font-weight:bold;">Help</span></div>
+  </div>
+
+
+
+
+
+
+<h3>Women's Collection</h3>
+<div id="filterBar">
+<h3 style="text-align: left;margin-left: 25%;">All Products</h3>
+<label id="sort">Sort By</label>
+<select >
+<option>Featured</option>
+<option>New Arrivals</option>
+<option>Best Sellers</option>
+<option>Price Low-High</option>
+<option>Price High-Low</option>
+<option>Highest Rated</option>
+<option>Percent Off</option>
+</select>
+<label id="sort">Show</label>
+<select >
+<option>48 items</option>
+<option>72 items</option>
+<option>96 items</option>
+<option>120 items</option>
+
+</select>
+
+
+
+
+
+
+
+</div>
+<div id="fullpage">
+<div id="left">
+
+<select id="leftselect">
+<option>Department</option>
+<option id="deptsub">Cloathing</option>
+<option id="deptsub">Shoes</option>
+<option id="deptsub">Accessory</option>
+<option id="deptsub">Jewelery</option>
+<option id="deptsub">Beauty</option>
+<option id="deptsub">Watches</option>
+</select>
+<select id="leftselect">
+  <option>Size Range</option>
+  <option id="deptsub">Regular</option>
+  <option id="deptsub">Plus</option>
+  <option id="deptsub">Petite</option>
+  <option id="deptsub">Maternity</option>
+ 
+  </select>
+  <select id="leftselect">
+    <option>Size</option>
+    <option id="deptsub">KING</option>
+    <option id="deptsub">QUEEN</option>
+    <option id="deptsub">FULL</option>
+    <option id="deptsub">STANDARD</option>
+    <option id="deptsub">TWIN</option>
+    <option id="deptsub">TWIN XL</option>
+
+    </select>
+    <select id="leftselect">
+      <option>Brand</option>
+      <option id="deptsub">Calvin Clein</option>
+      <option id="deptsub">Croft & Borrow</option>
+      <option id="deptsub">FLX</option>
+      <option id="deptsub">LC Lauren Conrad</option>
+      <option id="deptsub">Nine West</option>
+      <option id="deptsub">SO</option>
+      </select>
+      <select id="leftselect">
+        <option>Color</option>
+        <option id="deptsub">Beig/khaki</option>
+        <option id="deptsub">Black</option>
+        <option id="deptsub">Red</option>
+        <option id="deptsub">Blue</option>
+        <option id="deptsub">White</option>
+        <option id="deptsub">Yellow</option>
+        <option id="deptsub">Green</option>
+        </select>
+        <select id="leftselect">
+          <option>Price</option>
+          <option id="deptsub">Under $10</option>
+          <option id="deptsub">$10 to $25</option>
+          <option id="deptsub">$25 to $50</option>
+          <option id="deptsub">$50 to $100</option>
+          <option id="deptsub">$100 to $125</option>
+          <option id="deptsub">$125 to $150</option>
+          </select>
+          <select id="leftselect">
+            <option>Customer Rating</option>
+            <option id="deptsub">Cloathing</option>
+            <option id="deptsub">Shoes</option>
+            <option id="deptsub">Accessory</option>
+            <option id="deptsub">Jewelery</option>
+            <option id="deptsub">Beauty</option>
+            <option id="deptsub">Watches</option>
+            </select>
+            <select id="leftselect">
+              <option>Promotions</option>
+              <option id="deptsub">Clearence</option>
+              <option id="deptsub">Sale</option>
+             
+              </select>
+</div>
+
+  <div id="container1"></div>
+
+
+
+
+
+
+
+    <!-- <div class="footermain" style="margin-top:500px">
+     <div class="footertop">
+
+
+
+
+
+      <div class="subbox1">
+        <div>
+        <p id="footertxt"><b>CONNECT WITH US</b></p>
+        </div>
+        <div>
+        <p id="footertxt"><a href="https://www.facebook.com/kohls"><i class="fab fa-facebook-f fa-2x"></i></a></p>  
+        </div>
+        <div>
+          <p id="footertxt"><a href="https://twitter.com/kohls"><i class="fab fa-twitter fa-2x"></i></a></p>
+        </div>
+        <div>
+          <p id="footertxt"><a href="https://www.pinterest.com/kohls/"><i class="fab fa-pinterest-p fa-2x"></i></a></p>
+        </div>
+        <div>
+          <p id="footertxt"><a href="https://www.instagram.com/kohls"><i class="fab fa-instagram fa-2x"></i></a></p>
+        </div>
+        <div>
+          <p id="footertxt"><a href=""><i class="fab fa-youtube fa-2x"></i></a></p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+      <div class="subbox2">
+        <div id="get">
+        <p id="footertxt"><b>GET OUR APP</b></p>
+        </div>
+         <div id="bar">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.ZdIR9G0iFvIqrc1wLXDG4AHaHa&pid=Api&P=0&w=300&h=300" height="100px"/>
+         </div>
+         <div id="learn">
+        <p id="footertxt"><b>Scan the code to download
+          the Kohl’s App today.</b></p>
+         <a href="https://www.kohls.com/feature/app.jsp"><button id="infosi">Learn More</button></a> 
+         </div>
+      </div>
+      
+    </div>
+
+      <div id="footerbottom">
+      <div>
+      <p id="footertxt"><b>CUSTOMER SERVICE</b></p>
+      <p id="footertxt">Contact Us</p>
+      <p id="footertxt">Shipping</p>
+      <p id="footertxt">Returns</p>
+      <p id="footertxt">Rebates</p>
+      <p id="footertxt">Recalls</p>
+      <p id="footertxt">Product Guides</p>
+      <p id="footertxt"> Kohl’s Cash</p>
+      </div>
+      <div>
+        <p id="footertxt"><b>SHOP KOHL’S</b></p>
+        <p id="footertxt">Get 15% off when you
+          sign up for our emails</p>
+        <p id="footertxt">My Lists</p>
+        <p id="footertxt">Site Map</p>
+        <p id="footertxt">Store Locator</p>
+        <p id="footertxt">Gift Cards</p>
+        <p id="footertxt">Kohl’s Coupons</p>
+        
+      </div>
+      <div>
+        <p id="footertxt"><b>MY ACCOUNT</b></p>
+        <p id="footertxt">Sign In</p>
+        <p id="footertxt">My Account</p>
+        <p id="footertxt">Update Password</p>
+        <p id="footertxt">Order Status</p>
+        <p id="footertxt">Rewards</p>
+        <p id="footertxt">Gift Card Balance &
+          Kohl’s Cash Balance</p>
+       
+      </div>
+      <div>
+        <p id="footertxt"><b>KOHL’S CARD</b></p>
+        <p id="footertxt">Benefits</p>
+        <p id="footertxt">Pay & Manage Card</p>
+        <p id="footertxt">Apply for a Kohl’s Card</p>
+        <p id="footertxt">See if you prequalify</p>
+        
+      </div>
+      <div>
+        <p id="footertxt"><b>ABOUT KOHL’S</b></p>
+        <p id="footertxt">Our Websites</p>
+        <p id="footertxt">Community</p>
+        <p id="footertxt">Diversity & Inclusion</p>
+        <p id="footertxt">Sustainability</p>
+        <p id="footertxt">Careers</p>
+        <p id="footertxt">Apply for Seasonal Jobs</p>
+        <p id="footertxt">Associate Services</p>
+        <p id="footertxt">Investor Relations</p>
+        <p id="footertxt">Affiliate Program</p>
+        <p id="footertxt">Advertise with Us</p>
+      </div>
+      </div>  
+      </div>
+      <div class="foot">
+      <p id="footertxt">© 2022 Kohl’s, Inc.<br>
+        KOHL’S® and Kohl’s brand names are trademarks owned by KIN, Inc.<br>
+        All rights reserved.</p>
+      <p id="footertxt">Android, Google Play and the Google Play logo are trademarks of Google Inc. App Store is a service mark of Apple Inc.<br>
+      <u><b>Legal Notices, Privacy Policy, California Privacy Policy, CA-Do Not Sell My Personal Information, About Our Ads, California Transparency in Supply Chains Act.</u></b></p>
+      </div> -->
+</body>
+</html>
+<script src="women.js">
+
+</script>
